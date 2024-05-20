@@ -1,1 +1,3 @@
-npm test  &&  npm run build  &&  git add dist/*
+npm test
+npm run build
+git add dist/*
