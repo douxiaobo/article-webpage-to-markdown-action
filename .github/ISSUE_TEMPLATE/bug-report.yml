@@ -38,15 +38,14 @@ body:
     attributes:
       label: 'Screenshots（截图）'
       placeholder: 'If applicable, add screenshots to help explain your problem.（可以截图辅助描述。）'
-      required: true
 
   - type: textarea
     id: environment
     attributes:
       label: 'environment（环境）'
       placeholder: |
-        OS（操作系统）: [e.g. iOS（例如：iOS）]
-        Node.js’s Version（Node.js 版本）: [e.g. 12.12.12（例如：12.12.12）]
+        - OS（操作系统）: [e.g. iOS（例如：iOS）]
+        - Node.js’s Version（Node.js 版本）: [e.g. 12.12.12（例如：12.12.12）]
       required: true
 
   - type: textarea
@@ -54,4 +53,3 @@ body:
     attributes:
       label: 'Additional context（其他）'
       placeholder: 'Add any other context about the problem here.（添加其他你想添加的内容）'
-      required: true
