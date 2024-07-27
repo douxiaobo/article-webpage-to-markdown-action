@@ -2,46 +2,28 @@ name: 'Feature（新特性）'
 about: 'Suggest an idea for this repo.（对本仓库新功能提出建议。）'
 title: ''
 labels:
- - feature
+  - feature
 assignees: 
- - TechQuery
+  - TechQuery
 
 body:
- - type: markdown
-   attributes:
-     value: |
-       **Is your feature request related to a problem? Please describe.（遇见的问题）**
-       A clear and concise description of what the problem is.（简单地描述问题）
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: 'Is your feature request related to a problem? Please describe.（遇见的问题）'
+      placeholder: 'A clear and concise description of what the problem is.（简单地描述问题）'
+      required: true
 
- - type: textarea
-   id: problem-description
-   attributes:
-     label: 'Problem Description'
-     placeholder: 'A clear and concise description of what the problem is.'
-     description: '简单地描述问题'
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: 'Describe the solution you'd like（描述想要的解决方案）'
+      placeholder: 'A clear and concise description of what you want to happen.（简洁地描述你想要的解决方案。）'
+      required: true
 
- - type: markdown
-   attributes:
-     value: |
-       **Describe the solution you'd like（描述想要的解决方案）**
-       A clear and concise description of what you want to happen.（简洁地描述你想要的解决方案。）
-
- - type: textarea
-   id: proposed-solution
-   attributes:
-     label: 'Proposed Solution'
-     placeholder: 'A clear and concise description of what you want to happen.'
-     description: '简洁地描述你想要的解决方案。'
-
- - type: markdown
-   attributes:
-     value: |
-       **Additional context（其他）**
-       Add any other context about the problem here.（添加其他你想添加的内容）
-
- - type: textarea
-   id: additional-context
-   attributes:
-     label: 'Additional Context'
-     placeholder: 'Add any other context about the problem here.'
-     description: '添加其他你想添加的内容。'
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 'Additional context（其他）'
+      placeholder: 'Add any other context about the problem here.（添加其他你想添加的内容）'
+      required: true
